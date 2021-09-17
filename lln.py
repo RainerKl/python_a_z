@@ -14,6 +14,6 @@ for idx, val in enumerate(randn(n)):
     if abs(val)<1:
         counter+=1
         
-ratio=round(counter/n*100,3)
+ratio=round(counter/n*100,4)
 
 print(f'Out of {n} samples, the values was within +-1 in {ratio}%.')
